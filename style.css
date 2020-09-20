@@ -22,14 +22,27 @@ text-align: center;
 	font-size: 1rem;
 
 }
+.sectionText.error{
+	outline: red 2px solid;
+}
 .btn{
 	display: block;
 	margin: 0 auto;
 	width: 70vw;
 	height: 5vh;
 }
-
-
+.message{
+	display: block;
+	text-align: left;
+	margin-left:1% ;
+	padding: .5rem;
+	color: red;
+	visibility: hidden;
+}
+.message.wrong{
+	
+	visibility:visible;
+}
 .goalText{
 
 }
