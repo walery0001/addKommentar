@@ -44,12 +44,12 @@ errorArea(textArea,message)
 else{
     korektArea(textArea,message)
 let myText = textArea.value;
-let newP = document.createElement('p');
-newP.textContent = myText;
-htmlText.appendChild(newP)
-
-//htmlText.innerHTML = `<p>${myText}</p>`;
-newP.setAttribute('class','goalP');
+// let newP = document.createElement('p');
+// newP.textContent = myText;
+// htmlText.appendChild(newP)
+// htmlText.innerHTML = `<p>${myText}</p> `
+htmlText.innerHTML = `<p class="goalP">${myText}</p>`;
+// newP.setAttribute('class','goalP');
 textArea.value = '';
 }
 });

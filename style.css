@@ -14,6 +14,7 @@ text-align: center;
 
 	
 }
+
 .sectionText{
 	width: 70vw;
 	height: 20vh;
@@ -43,9 +44,6 @@ text-align: center;
 	
 	visibility:visible;
 }
-.goalText{
-
-}
 .goalP{
 	width: 80vw;
 	overflow: auto;
@@ -74,4 +72,8 @@ border-radius: 5px;
 button:hover {
 	background: #cc8923;
 	font-size: 1rem;
+	outline: none;
+}
+button:focus{
+	outline: none;
 }
